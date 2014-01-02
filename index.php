@@ -86,7 +86,7 @@
 <body>
 	<div class="container">
 		<div class="page-header">
-			<h1>Rexsoftware Typekit libraries</h1>
+			<h1>Typekit libraries</h1>
 		</div>
 
 		<?php if(!is_null($error_message)): ?>
