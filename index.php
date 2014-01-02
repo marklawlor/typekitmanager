@@ -57,6 +57,10 @@
 
 
 	$kits = $typekit->get(null, $typekit_token)['kits'];
+
+	if(is_null($kits)){
+		$error_message = "Loading kits failed, please check your API key is set in settings.php";
+	}
 ?>
 
 
